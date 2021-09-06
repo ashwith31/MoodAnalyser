@@ -3,15 +3,16 @@ package com.moodanalyser;
 public class MoodAnalyser {
 
     private String message;
+    public MoodAnalyser(String message) {
+        this.message = message;
+    }
 
-    public static String analyseMood(String message) {
+    public String analyseMood() {
         if (message.contains("sad"))
             return "sad";
         else
             return "Happy";
     }
 
-    void MoodAnalyser(String message) {
-        this.message = message;
-    }
+
 }
