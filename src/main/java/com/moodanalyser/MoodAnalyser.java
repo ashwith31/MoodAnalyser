@@ -9,7 +9,7 @@ public class MoodAnalyser {
             else
                 return "Happy";
         } catch (Exception e) {
-           return "Its an Exception!!!";
+           return "Happy";
         }
     }
 }
