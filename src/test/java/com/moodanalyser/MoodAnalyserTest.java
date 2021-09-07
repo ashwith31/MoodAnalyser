@@ -55,7 +55,7 @@ public class MoodAnalyserTest {
         MoodAnalyser moodAnalyser = new MoodAnalyser();
         try
         {
-            moodAnalyser.analyseMood(null);
+            moodAnalyser.analyseMood(" ");
         } catch (MoodAnalyserException e)
         {
             Assertions.assertEquals(MoodAnalyserException.ExceptionType.ENTERED_EMPTY, e.type);
