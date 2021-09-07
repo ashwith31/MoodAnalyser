@@ -1,11 +1,6 @@
 package com.moodanalyser;
 
 public class MoodAnalyser {
-    private final String message;
-
-    public MoodAnalyser(String message) {
-        this.message = message;
-    }
 
     public String analyseMood(String message) throws MoodAnalyserException {
 
